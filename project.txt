@@ -1,5 +1,11 @@
-project test1
+다음 명령어를 사용하여 브랜치를 생성!
+git checkout -b DV-{이슈번호}-{브랜치명}
 
-project test2 now
+스테이징
+git add .
 
-project test3 !
+커밋
+git commit -m "DV-2 커밋내용"
+
+해당 브랜치에서 푸시
+git push origin 브랜치명
