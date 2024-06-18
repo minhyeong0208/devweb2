@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%@ include file="user_bar.jsp"%>
+<%@ include file="member_bar.jsp"%>
 <div class="container">
 
 

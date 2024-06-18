@@ -9,7 +9,7 @@
 		<ul>
 			<li class="list"><a href="#">수입정보</a></li>
 			<li class="list"><a href="#">지출정보</a></li>
-			<li class="list"><a href="#">수입지출내역서</a></li>
+			<li class="list"><a href="statement.jsp">수입지출내역서</a></li>
 		</ul>
 	</details>
 	<details open>
