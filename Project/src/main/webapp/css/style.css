@@ -1,0 +1,69 @@
+ /* 로고를 원하는 크기로 조정 */
+.top_bar .logo {
+  width: 150px;
+  height: auto;
+}
+
+.top_bar { 
+  background-color: #F5F5F5; 
+  position: fixed; 
+  left: 0; 
+  top: 0; 
+  right: 0; 
+  height: 75px; 
+  border-bottom: 1px solid;
+  color: #DCDCDC;
+  display: flex;
+  align-items: center;
+  padding-left: 20px /* 로고와 왼쪽 경계 사이의 간격 조정 */
+}
+
+.list {
+  list-style: none; 
+  margin-bottom: 10px;
+}
+	 
+a { 
+  text-decoration-line: none;
+}
+	 
+summary { 
+  list-style-type: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  background-color: #808080;
+  padding: 12px;
+  border: 1px solid #696969;
+  border-radius: 5px;
+}
+
+
+
+
+ /* 닫힌 상태에서는 ► 기호 표시 */
+summary::before {
+  content: "👉 ";
+}
+
+/* details 태그 스타일 */
+details[open] summary::before {
+  margin-bottom: 10px;
+  content: "👇 ";
+}
+
+.side_bar { 
+  background-color: #F5F5F5; 
+  position: fixed; 
+  left: 0; 
+  top: 75px; 
+  bottom: 0; 
+  width: 200px; 
+  border-right: 0.5px solid;
+  color: #DCDCDC; 
+}
+
+.container { 
+  margin-top: 75px; 
+  margin-left: 200px; 
+}
