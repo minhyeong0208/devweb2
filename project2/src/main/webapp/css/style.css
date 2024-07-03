@@ -1,0 +1,102 @@
+/* 로고를 원하는 크기로 조정 */
+.top_bar .logo {
+  width: 150px;
+  height: auto;
+}
+
+
+/* 상단 top_bar, 로고 속성 */
+.top_bar { 
+  background-color: #F5F5F5; 
+  position: fixed; 
+  left: 0; 
+  top: 0; 
+  right: 0; 
+  height: 75px; 
+  /* border-bottom: 1px solid; */
+  color: #DCDCDC;
+  display: flex;
+  align-items: center;
+  padding-left: 20px; /* 로고와 왼쪽 경계 사이의 간격 조정 */
+}
+
+
+/* 프로필 설정 */
+.profile {
+  text-align: center;
+  margin: 20px 0; /* 프로필 섹션의 위아래 간격 조정 */
+}
+
+.profile-img {
+  width: 125px;
+  height: 125px;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+/* 프로필 수정으로 넘어가는 a Tag 설정 */	 
+a { 
+  text-decoration: none; /* 링크 라인 제거 */
+}
+
+
+
+/* 링크에 대한 스타일 */
+a:link, a:visited {
+  color: #858585;
+}
+
+/* HOME 링크 스타일 */
+.home-link {
+  color: white; /* 링크 색상 설정 */
+  text-decoration: none; /* 링크 라인 제거 */
+}
+
+
+/* 리스트 속성 */
+.list {
+  list-style: none; 
+  margin-bottom: 13px;
+}
+
+/* 섹션 제목 스타일 */
+.section-title { 
+  list-style-type: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  background-color: #858585;
+  padding: 12px;
+  /*border: 1px solid #171717;*/
+  border-radius: 3px;
+  position: relative;
+}
+
+
+/* HOME 스타일 */
+.home {
+  text-align: left;
+  list-style-type: none;
+  margin-bottom: 13px;
+}
+
+.home-link::before {
+  content: "🏠 ";
+  margin-right: 5px;
+  position: absolute; /* 절대 위치 설정 */
+  left: 10px; /* 아이콘을 왼쪽에 배치 */
+}
+
+
+/* 사이드바 속성 */
+.side_bar { 
+  background-color: #F5F5F5; 
+  position: fixed; 
+  left: 0px; 
+  top: 50px; 
+  bottom: 0; 
+  width: 220px;
+  /* border-right: 0.5px solid; */
+  color: #DCDCDC;
+}

@@ -1,0 +1,99 @@
+/* 회원정보 수정 CSS */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* 가로 가운데 정렬 */
+    align-items: center;    /* 세로 가운데 정렬 */
+    height: 100vh;          /* 화면 전체 높이를 채움 */
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container label {
+    display: block;
+    margin-top: 10px;
+    color: #666;
+    text-align: left; /* 레이블 텍스트 왼쪽 정렬 */
+}
+
+.container input[type="text"],
+.container input[type="password"],
+.container input[type="date"],
+.container select {
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: left; /* 입력 필드 텍스트 왼쪽 정렬 */
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* 버튼 간 간격 */
+}
+
+button,
+#update,
+#delete {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: #858585;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover,
+#update:hover,
+#delete:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+button.delete,
+#delete {
+    background-color: #858585;
+}
+
+button.delete:hover,
+#delete:hover {
+    background-color: #333;
+}
+
+.container p {
+    text-align: left; /* 아이디 텍스트를 왼쪽 정렬 */
+    margin-top: 10px; /* 위쪽 마진 추가 */
+    font-size: 16px; /* 글자 크기 */
+    color: #666; /* 글자 색상 */
+}
